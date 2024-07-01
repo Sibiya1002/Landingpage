@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section styles */
+.about, .attractions {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about h2, .attractions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attraction-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.attraction-item img {
+    max-width: 30%;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attraction-item h3 {
+    margin-top: 10px;
+}
+
+.attraction-item p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
